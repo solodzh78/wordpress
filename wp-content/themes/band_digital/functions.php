@@ -32,7 +32,7 @@ function band_digital_styles() {
   
   // Counterup
   wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/plugins/counterup/jquery.waypoints.js', array('jquery'), null, true );
-  wp_enqueue_script( 'counterup', get_template_directory_uri() . '/plugins/counterup/counterup.min.js', array('jquery'), null, true );
+  wp_enqueue_script( 'counterup', get_template_directory_uri() . '/plugins/counterup/jquery.counterup.min.js', array('jquery'), null, true );
   
   // Google Map
   wp_enqueue_script( 'gmap3', get_template_directory_uri() . '/plugins/google-map/gmap3.min.js', array('jquery'), null, true );
